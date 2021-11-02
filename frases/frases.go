@@ -8,6 +8,7 @@ import (
 // Nueva devuelve aleatoriamente una frase de una película
 func Nueva() string {
 	frases := []string{
+		"Hay tiempo de comer tranquilos...",
 		"Que la fuerza te acompañe",
 		"Voy a hacerle una oferta que no podrá rechazar",
 		"Me encanta el olor del napalm por la mañana",
