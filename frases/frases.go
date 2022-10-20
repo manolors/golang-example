@@ -21,6 +21,7 @@ func Nueva() string {
 		"He cruzado océanos de tiempo para encontrarte",
 		"Estoy a veinte minutos de allí. Llegaré en diez",
 		"He visto cosas que vosotros no creeríais.",
+		"¿Chicos en que año fue 1 + 1? La respuesta es el fantástico Ralph.",
 	}
 	rand.Seed(time.Now().UnixNano())
 	return frases[rand.Intn(len(frases))]
